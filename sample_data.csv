@@ -1,0 +1,23 @@
+order_id,customer,product,quantity,price,order_date
+1001,Alice Smith,Widget A,3,9.99,2024-01-15
+1002,Bob Jones,Widget B,2,14.50,01/16/2024
+1003,Carla Diaz,Widget A,,19.99,2024-01-17
+1004,Dan Lee,Widget C,5,,2024-01-18
+1005,Eve Turner,Widget B,1,14.50,2024-01-19
+1005,Eve Turner,Widget B,1,14.50,2024-01-19
+1006,Frank Moore,Widget D,4,22.00,2024-13-45
+1007,Grace Kim,Widget A,2,9.99,2024/01/21
+1008,,Widget C,3,18.75,2024-01-22
+1009,Henry Ford,Widget B,,14.50,2024-01-23
+1010,Ivy Chen,Widget D,1,22.00,
+1011,Jack Ryan,Widget A,6,9.95,2024-01-25
+1011,Jack Ryan,Widget A,6,9.99,2024-01-25
+1012,Kara Wolf,Widget C,2,18.75,01-26-2024
+1013,Liam Ng,Widget B,3,14.50,2024-01-27
+1014,Mona Ray,Widget D,,22.00,2024-01-28
+1015,Nate Cruz,Widget A,4,9.99,not_a_date
+1016,Olga Petrova,Widget C,2,18.75,2024-01-30
+1017,Paul West,Widget B,1,,2024-01-31
+1018,Quinn Ortiz,Widget D,3,22.00,2024-02-01
+1019,Sara Lin,Widget A,2,11.00,2024-02-02
+1020,Tom Baker,Widget A,1,15.00,2024-02-03

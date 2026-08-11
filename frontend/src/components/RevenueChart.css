@@ -1,0 +1,33 @@
+.chart-card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 32px;
+}
+
+.chart-card h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 20px;
+}
+
+.chart-tooltip {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+}
+
+.chart-tooltip .tooltip-label {
+  color: var(--text-secondary);
+  margin: 0 0 4px;
+}
+
+.chart-tooltip .tooltip-value {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin: 0;
+}

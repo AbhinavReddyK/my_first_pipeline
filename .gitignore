@@ -1,0 +1,13 @@
+.venv/
+.venv_test/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+node_modules/
+frontend/dist/
+frontend/.vite-temp/
+
+.DS_Store
+
+.claude/settings.local.json
