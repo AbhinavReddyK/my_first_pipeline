@@ -43,14 +43,18 @@
 
 import pandas as pd
 
-
-data2 = {
-    'name': ['Alice', 'Bob', None, 'Diana', 'Evan'],
-    'age': [25, None, 35, 28, None],
-    'city': ['NYC', 'LA', 'NYC', None, 'LA'],
-    'salary': [70000, 90000, None, 85000, 60000]
+data = {
+    'order_id': [1, 2, 3, 4, 5, 6],
+    'customer': ['Alice', 'Bob', 'Alice', 'Charlie', 'Bob', 'Alice'],
+    'amount': [200, 150, 300, 100, 250, 180],
+    'status': ['completed', 'pending', 'completed', 'cancelled', 'completed', 'pending']
 }
 
-df2 = pd.DataFrame(data2)
+df = pd.DataFrame(data)
 
-print(df2)
+print(df.groupby('customer')['amount'].sum())
+
+print(df.groupby('customer')['order_id'].count().reset_index(name='customer_orders'))
+
+completed = df[df['status'] == 'completed']
+print(completed.groupby('customer')['amount'].sum())
