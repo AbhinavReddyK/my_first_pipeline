@@ -12,7 +12,6 @@
 
 
 
-# df = pd.DataFrame(data)
 
 # print(df[df['salary'] >= 85000])
 # print(df.head())
